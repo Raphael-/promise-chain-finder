@@ -1,0 +1,34 @@
+{
+  "name": "promise-chain-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "unit": "jest",
+    "integ": "jest -c jest.config.integration.js",
+    "test": "npm run unit && npm run integ"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^8.4.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "esprima": "^4.0.1",
+    "esquery": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.0.4"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
+}
